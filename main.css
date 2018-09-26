@@ -33,22 +33,22 @@ p#slogan {
 
 .card {
     background: #FFF;
-    color: #222;
-    display: inline-block;
+    color: #222222;
+    display: none;
     padding: 1rem;
     border-radius:8px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
     0 3px 6px rgba(0, 0, 0, 0.23);
     position: absolute;
     right: 2rem;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 2rem;
 }
 
 .cardDiv {
     width: 360px;
     border-left:4px solid green;
     padding: 0 0.5rem;
+    display: none;
 }
 
 .card h2 {
@@ -64,4 +64,5 @@ p#slogan {
     background: #FFF;
     color:#000;
     border-radius: 8px;
+    display: none;
 }
